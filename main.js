@@ -2,7 +2,8 @@
 // #ifndef VUE3
 import Vue from 'vue'
 import App from './App'
-
+import './common/mineIcon/iconfont.css'
+import './common/mineNavIcon/iconfont.css'
 Vue.config.productionTip = false
 
 App.mpType = 'app'

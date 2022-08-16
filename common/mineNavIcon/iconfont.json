@@ -1,0 +1,58 @@
+{
+  "id": "3592802",
+  "name": "uniapp",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "30955454",
+      "name": "分类",
+      "font_class": "nav-01",
+      "unicode": "e66f",
+      "unicode_decimal": 58991
+    },
+    {
+      "icon_id": "30955461",
+      "name": "书",
+      "font_class": "nav-16",
+      "unicode": "e670",
+      "unicode_decimal": 58992
+    },
+    {
+      "icon_id": "30955473",
+      "name": "设置",
+      "font_class": "nav-03",
+      "unicode": "e671",
+      "unicode_decimal": 58993
+    },
+    {
+      "icon_id": "30028608",
+      "name": "消息-02",
+      "font_class": "iconhuaban1-05",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "30028616",
+      "name": "订单-03",
+      "font_class": "iconhuaban1-20",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "30028617",
+      "name": "订单-02",
+      "font_class": "iconhuaban1-14",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "30028627",
+      "name": "笑脸",
+      "font_class": "iconhuaban1-01",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    }
+  ]
+}

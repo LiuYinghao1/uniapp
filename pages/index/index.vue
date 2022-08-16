@@ -18,8 +18,11 @@
 		<!-- 最新列表 -->
 		<i-newList :data="newList"></i-newList>
 
+		<view class="btm-img">
+			<image src="../../static/demo/cover/4.png" mode=""></image>
+		</view>
 		<!-- 热门推荐 -->
-		<view class="group">
+		<!-- <view class="group">
 			<h2>热门推荐</h2>
 			<view class="total-group">
 				<view class="total total-left">
@@ -77,7 +80,7 @@
 					</view>
 				</view>
 			</view>
-		</view>
+		</view> -->
 	</view>
 </template>
 
@@ -342,7 +345,16 @@
 		font-size: 14px;
 		line-height: 24px;
 	}
-
+	.btm-img{
+		margin-top: 10px;
+		
+		image{
+			width: 100%;
+			height: 200px;
+			background-color: #fff;
+			margin-bottom: 50px;	
+		}
+	}
 
 	.total-group {
 		padding-top: 5px;
@@ -374,6 +386,7 @@
 	}
 
 	.new {
+		
 		margin-top: 10px;
 		padding: 10px;
 		padding-top: 10px;
