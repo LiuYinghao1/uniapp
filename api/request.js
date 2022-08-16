@@ -1,7 +1,7 @@
 export default {
 		config: {
 			baseURL: "http://ceshi8.dishaxy.com",
-			appid: "bd9d01ecc75dbbaaefce",
+			appid: "wx704f235177701287",
 			// 请求拦截器
 			beforeRequest(options = {}) {
 				return new Promise((resolve, reject) => {
