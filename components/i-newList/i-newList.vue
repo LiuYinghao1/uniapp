@@ -6,9 +6,9 @@
 			<view class="new-info" v-for="(item,index) in data" :key="index">
 				<image :src="item.cover" mode="" class="img"></image>
 				<view class="new-text">
-					<p>uni-app实战直播app开发</p>
+					<p>{{item.title}}</p>
 					<!-- <p>一句话推荐</p> -->
-					<span>￥100</span><s>￥299</s>
+					<span>￥{{item.price}}</span><s>￥{{item.t_price}}</s>
 				</view>
 			</view>
 
@@ -50,16 +50,20 @@
 
 		.new-info {
 			display: flex;
-			justify-content: space-between;
+			justify-content: center;
 			margin-top: 10px;
 			width: 100%;
 			height: 100px;
 			.img {
-				width: 170px;
+				width: 150px;
 				height: 90px;
 				background-color: #000;
 			}
-
+			
+			.new-text{
+				margin-left: 10px;
+				width: 200px;
+			}
 			.new-text :nth-child(3) {
 				// font-weight: bold;
 				font-size: 12px;

@@ -29,7 +29,9 @@
 	.nav-item {
 		width: 25%;
 	}
-
+	.nav{
+		background-color: #fff;
+	}
 	.nav image {
 		width: 70rpx;
 		height: 70rpx;

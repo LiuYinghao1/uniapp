@@ -33,13 +33,13 @@
 			"style": {
 				"navigationBarTitleText": "",
 				"enablePullDownRefresh": false,
-				"navigationStyle": "custom",
+				// "navigationStyle": "custom",
 				"navigationBarTextStyle": "white"
 				
 			}
 
 		}
-	],
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app在线教育",
