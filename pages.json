@@ -33,8 +33,9 @@
 			"style": {
 				"navigationBarTitleText": "",
 				"enablePullDownRefresh": false,
-				// "navigationStyle": "custom",
-				"navigationBarTextStyle": "white"
+				"app-plus": {
+					"titleNView":false
+				}
 				
 			}
 

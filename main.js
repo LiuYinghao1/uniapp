@@ -7,6 +7,11 @@ import './common/mineNavIcon/iconfont.css'
 import './common/wx/iconfont.css'
 Vue.config.productionTip = false
 
+// 引入loadsh
+import _ from 'lodash'
+// 将loadsh挂载到全局
+Vue.prototype.loadsh = _
+
 App.mpType = 'app'
 
 const app = new Vue({
