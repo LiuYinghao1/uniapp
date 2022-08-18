@@ -90,10 +90,27 @@ export default {
 				delete data.repassword;
 				const res = await UserModel.userLogin(data);
 				this.removeForm();
+				this.$store.dispatch('setUser', res);
+				this.handleToBindPhonePage();
+				uni.navigateBack({
+					delta: 1
+				});
 			} catch (e) {
 				console.log(e);
 			} finally {
 				uni.hideLoading();
+			}
+		},
+
+		handleToBindPhonePage() {
+			const user = this.$store.state.user;
+			if (!user.phone) {
+				setTimeout(() => {
+					uni.redirectTo({
+						url: '/pages/phone/phone'
+					});
+				}, 350);
+				return;
 			}
 		},
 		// 清空表单

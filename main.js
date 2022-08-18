@@ -14,8 +14,10 @@ Vue.prototype.loadsh = _
 
 App.mpType = 'app'
 
+import store from "@/store/index"
 const app = new Vue({
-    ...App
+    ...App,
+	store
 })
 app.$mount()
 // #endif

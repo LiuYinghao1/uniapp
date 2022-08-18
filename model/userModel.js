@@ -22,5 +22,27 @@ class UserModel extends Http {
 			data
 		})
 	}
+	
+	/**
+	 * 获取验证码接口
+	 */
+	static getGetCaptcha(data){
+		return Http.request({
+			url:'/mobile/get_captcha',
+			method:"POST",
+			data
+		})
+	}
+	
+	/**
+	 * 绑定手机号接口
+	 */
+	static userBindPhone(data){
+		return Http.request({
+			url:'/mobile/bind_mobile',
+			method:'POST',
+			data
+		})
+	}
 }
 export default UserModel
