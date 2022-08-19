@@ -6,7 +6,7 @@
 				<view class="" style="font-size: 30px;">绑定手机号</view>
 				<uni-forms class="inps">
 					<uni-forms-item><uni-easyinput v-model="form.phone" placeholder="请输入手机号" /></uni-forms-item>
-					<uni-forms-item><uni-easyinput v-model="form.code" placeholder="请输入验证码" /></uni-forms-item>
+					<uni-forms-item><uni-easyinput v-model="form.code" placeholder="验证码" /></uni-forms-item>
 					
 				</uni-forms>
 				<button class="inps" @click="handleSubmitForm" style="background-color: #5ccc84; color:#fff; ">绑定</button>
