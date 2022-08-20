@@ -9,7 +9,7 @@
 					<uni-forms-item><uni-easyinput v-model="form.code" placeholder="验证码" /></uni-forms-item>
 					
 				</uni-forms>
-				<button class="inps" @click="handleSubmitForm" style="background-color: #5ccc84; color:#fff; ">绑定</button>
+				<button class="inps" @click="handleSubmitForm" style="background-color: #5ccc84; color:#fff; ">立即绑定</button>
 			</view>
 		</view>
 	</view>
