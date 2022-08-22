@@ -29,7 +29,7 @@ class UserModel extends Http {
 	static getGetCaptcha(data){
 		return Http.request({
 			url:'/mobile/get_captcha',
-			method:"POST",
+			method:'POST',
 			data
 		})
 	}

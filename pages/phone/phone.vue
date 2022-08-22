@@ -1,6 +1,6 @@
 <template>
 	<view class="container">
-		<view class="" style="padding-top: 5px; padding-left: 5px;" @click="handleBackPage"><uni-icons style="color: #fff; font-size:24px; " type="back"></uni-icons></view>
+		<view class="" style="padding-top: 5px; padding-left: 6px;" @click="handleBackPage"><uni-icons style="color: #fff; font-size:24px; " type="back"></uni-icons></view>
 		<view class="login">
 			<view class="login-inp">
 				<view class="" style="font-size: 30px;">绑定手机号</view>
