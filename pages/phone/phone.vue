@@ -36,7 +36,7 @@ export default {
 		},
 		// 提交表单数据
 		handleSubmitForm() {
-			uni.showLoading({ title: '提交中...', mask: false })
+			uni.showLoading({ title: '提交中..', mask: false })
 		},
 		//登录
 		async handleLoginAccont() {

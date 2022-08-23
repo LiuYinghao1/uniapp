@@ -20,7 +20,7 @@
 				<checkbox-group v-if="!handleStatus" @change="handleCheckboxStatus">
 					<label>
 						<checkbox class="checkbox" :checked="check" />
-						<text>已阅读并同意用户协议&隐私声明</text>
+						<text>已阅读并同意用户协议 & 隐私声明</text>
 					</label>
 				</checkbox-group>
 			</view>
